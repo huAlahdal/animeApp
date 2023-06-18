@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+            android:id="@+id/top_anime_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
+                android:gravity="center"
+                android:padding="3dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/anime_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#70"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"/>
+
+            <TextView
+                    android:id="@+id/anime_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Anime Name"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:gravity="center"
+                    android:ellipsize="end"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/anime_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_launcher_background"/>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="#FFAA00"
+                        app:cardUseCompatPadding="true">
+
+                    <TextView
+                            android:id="@+id/anime_score"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8.25"
+                            android:textColor="@color/white"
+                            android:padding="7dp"
+                            android:textSize="13sp"
+                            android:textStyle="bold"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="3dp"
+                        android:layout_alignBottom="@+id/anime_image"
+                        android:layout_alignEnd="@+id/anime_image"
+                        app:cardUseCompatPadding="true">
+
+                    <TextView
+                            android:id="@+id/anime_popularity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Popularity #443"
+                            android:padding="6dp"
+                            android:textSize="11sp"
+                            android:textStyle="bold"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical">
+
+
+                <TextView
+                        android:id="@+id/anime_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="النوع: TV"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/anime_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حالة الأنمي: يعرض الان"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/anime_length"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="مدة الحلقة: 24 دقيقة"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"/>
+                <TextView
+                        android:id="@+id/anime_source"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2020-12-01"
+                        android:textAlignment="textEnd"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        android:textStyle="bold"/>
+
+<!--                <TextView-->
+<!--                        android:id="@+id/anime_year"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="بداية العرض: 2023"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                <TextView-->
+<!--                        android:id="@+id/anime_episodesNum"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="عدد الحلقات: غير معروف"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textStyle="bold"/>-->
+<!--                <TextView-->
+<!--                        android:id="@+id/anime_season"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="الموسم: ربيع 2023"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textStyle="bold"/>-->
+
+<!--                <TextView-->
+<!--                        android:id="@+id/anime_studio"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="الاستديو: Studio Pierrot"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textStyle="bold"/>-->
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
