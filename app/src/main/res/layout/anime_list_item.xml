@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content"
+                                                    android:layout_margin="8dp"
+                                                    app:cardCornerRadius="8dp"
+                                                    app:cardElevation="8dp">
+
+    <RelativeLayout
+            android:id="@+id/animeItemLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/animeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/extra_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apr 9, 2023 ? eps, 26 min"
+                    android:visibility="gone"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:padding="4dp"/>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:id="@+id/animeImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/logo" />
+
+                <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/animeImage"
+                        android:layout_alignTop="@+id/animeImage"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp">
+
+                    <TextView
+                            android:id="@+id/animeStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:textAlignment="center"
+                            android:text="anime status" />
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <TextView
+                    android:id="@+id/animeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/animeImage"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:padding="12dp"
+                    android:text="anime Name"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/animeLayout"
+                android:layout_alignEnd="@+id/animeLayout"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="13dp"
+                app:cardBackgroundColor="#FFAA00"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+            <TextView
+                    android:id="@+id/animeType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:text="anime type" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

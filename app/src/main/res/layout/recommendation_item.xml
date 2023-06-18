@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_margin="8dp"
+                                   app:cardCornerRadius="8dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <!-- if you like this anime Part -->
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:id="@+id/left_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:src="@drawable/ic_launcher_background"
+                        android:contentDescription="TODO"/>
+
+                <TextView
+                        android:id="@+id/left_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="3dp"
+                        android:textSize="12sp"
+                        android:text="Jaku-Chara Tomozaki-kun"/>
+
+            </LinearLayout>
+
+
+            <!-- middle part with arrows -->
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="13sp"
+                        android:text="اذا اعجبك"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_arrow_left"
+                        android:contentDescription="TODO"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_arrow_right"
+                        android:contentDescription="TODO"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="13sp"
+                        android:text="فسوف يعجبك"/>
+
+
+            </LinearLayout>
+
+            <!-- you will like this anime Part -->
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:orientation="vertical">
+
+
+                <ImageView
+                        android:id="@+id/right_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_launcher_background"
+                        android:contentDescription="TODO"/>
+
+
+                <TextView
+                        android:id="@+id/right_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="Asobi Asobase"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Recommendation overview -->
+
+        <!-- Circular progress indicator -->
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/progress_circular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:indeterminate="true" />
+
+        <TextView
+                android:id="@+id/recommendation_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"/>
+
+        <Button
+                style="@style/Widget.Material3.Button.TextButton"
+                android:id="@+id/showButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginTop="10dp"
+                android:text="Show Reason"
+        />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
