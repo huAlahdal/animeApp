@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_array">
+        <item>witanime</item>
+        <item>anime4up</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF808080</color>
+    <color name="my_dark_background">#FF121212</color>
+    <color name="my_dark_error">#CF6679</color>
+    <color name="my_dark_on_background">#FFFFFFFF</color>
+    <color name="my_dark_on_error">#FF000000</color>
+    <color name="my_dark_on_primary">#FF000000</color>
+    <color name="my_dark_on_secondary">#FFFFFF</color>
+    <color name="my_dark_on_surface">#FFFFFFFF</color>
+    <color name="my_dark_primary">#FFBB86FC</color>
+    <color name="my_dark_primary_variant">#FF3700B3</color>
+    <color name="my_dark_secondary">#362228</color>
+    <color name="my_dark_secondary_variant">#FF03DAC5</color>
+    <color name="my_dark_surface">#FF121212</color>
+    <color name="my_light_background">#FFFFFFFF</color>
+    <color name="my_light_error">#B00020</color>
+    <color name="my_light_on_background">#FF000000</color>
+    <color name="my_light_on_error">#FFFFFFFF</color>
+    <color name="my_light_on_primary">#FFFFFFFF</color>
+    <color name="my_light_on_secondary">#FFFFFF</color>
+    <color name="my_light_on_surface">#FF000000</color>
+    <color name="my_light_primary">#FF6200EE</color>
+    <color name="my_light_primary_variant">#FF3700B3</color>
+    <color name="my_light_secondary">#1443EB</color>
+    <color name="my_light_secondary_variant">#FF018786</color>
+    <color name="my_light_surface">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">bLinK Anime</string>
+    <string name="close">close</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="open">open</string>
+    <string name="pause_vector_path" translatable="false">M5,6 l14,0 l0,4 l-14,0z M5,14 l14,0 l0,4 l-14,0z</string>
+    <string name="play_vector_path" translatable="false">M6,5 l12,7 l0,0 l-12,0z M6,12 l12,0 l0,0 l-12,7z</string>
+    <string name="previous">Previous</string>
+    <string name="search_hint">search an anime</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_anime_list">Anime List</string>
+    <string name="title_activity_anime_recommendation">Anime Recommendation</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_episode_comments">Episode Comments</string>
+    <style name="Base.Theme.BLinKAnime" parent="Theme.Material3.DayNight.NoActionBar">
+        
+         <item name="colorPrimary">#1443EB</item>
+            <item name="colorPrimaryVariant">@color/my_light_primary_variant</item>
+            <item name="colorSecondary">@color/my_light_secondary</item>
+            <item name="colorSecondaryVariant">@color/my_light_secondary_variant</item>
+            <item name="android:colorBackground">@color/my_light_background</item>
+            <item name="colorSurface">@color/my_light_surface</item>
+            <item name="android:colorError">@color/my_light_error</item>
+            <item name="colorOnPrimary">@color/my_light_on_primary</item>
+            <item name="colorOnSecondary">@color/my_light_on_secondary</item>
+            <item name="colorOnBackground">@color/my_light_on_background</item>
+            <item name="colorOnSurface">@color/my_light_on_surface</item>
+            <item name="colorOnError">@color/my_light_on_error</item>
+    </style>
+    <style name="Theme.BLinKAnime" parent="Base.Theme.BLinKAnime"/>
+</resources>

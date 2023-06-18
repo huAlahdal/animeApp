@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_episodecomments.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_episodecomments.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\debrid_account.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\debrid_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\top_anime_fragment.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\top_anime_fragment.xml"
+    },
+    {
+        "merged": "com.example.blinkanime.app-mergeDebugResources-78:/layout/latest_recycle_list.xml",
+        "source": "com.example.blinkanime.app-main-81:/layout/latest_recycle_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_seasonal_anime.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_seasonal_anime.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\spinner.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_details.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\recommendation_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\recommendation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\menu_checkbox_layout.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\menu_checkbox_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\anime_list_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\anime_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\notification_large.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\notification_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\schedule_content.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\schedule_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\schedule_content_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\schedule_content_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\latest_recycle_list.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\latest_recycle_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\similer_anime_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\similer_anime_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\animed_details_page.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\animed_details_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\anime_details_ep.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\anime_details_ep.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\anime_recycle_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\anime_recycle_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\details_ep_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\details_ep_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\news_card_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\news_card_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\schedule_page.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\schedule_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\comments_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\comments_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\drawer_header.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\fragment_seasonal_anime.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\fragment_seasonal_anime.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\image_dialog.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\image_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\widget_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\widget_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\news_page.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\news_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_anime_recommendation.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_anime_recommendation.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_anime_list.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_anime_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\top_anime_list.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\top_anime_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\notification_small.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\notification_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\activity_top_anime.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\activity_top_anime.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\modal_bottom_sheet.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\modal_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\anime_about_detalis.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\anime_about_detalis.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\widget_layout.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\widget_view_item.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\widget_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-mergeDebugResources-78:\\layout\\main_page.xml",
+        "source": "C:\\Users\\bLinK\\.gradle\\daemon\\7.5\\com.example.blinkanime.app-main-81:\\layout\\main_page.xml"
+    }
+]

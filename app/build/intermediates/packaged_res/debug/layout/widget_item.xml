@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#ffffff">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/logo"/>
+
+    <TextView
+            android:id="@+id/appwidget_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Latest Episodes"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+    <!--Refresh Button-->
+    <ImageView
+            android:id="@+id/refresh_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/refresh_button"
+            android:layout_marginEnd="8dp"/>
+
+    <!--	<TextView-->
+    <!--			android:layout_width="wrap_content"-->
+    <!--			android:layout_height="wrap_content"-->
+    <!--			android:text="Login"-->
+    <!--			android:gravity="end"-->
+    <!--			android:textSize="15sp"-->
+    <!--			android:layout_marginEnd="8dp"-->
+    <!--			android:textColor="#3655C4"/>-->
+
+</LinearLayout>

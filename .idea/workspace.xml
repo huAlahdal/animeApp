@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <option name="nonWearDeviceLastStateName" value="Portrait" />
+      </config>
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1822163-2dd2-47ee-9659-819254d3d21d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\bLinK\.android\avd\Pixel_6_Pro_API_33.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="bLinKAnime" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2On3UFwLQEPP3HZEgHdsbHLU587" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "PROJECT_TRUSTED_KEY": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android-custom-viewC:/Users/bLinK/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
+    "android-custom-viewC:/Users/bLinK/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.3.0/f4de7876e10ff121102f131b26d4a98b1613a012/recyclerview-1.3.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED": "RecyclerView",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "Merging master",
+    "ktor.last.update.timestamp": "1686643237546",
+    "last_opened_file_path": "C:/Users/bLinK/Documents/bLinKAnime",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.ChatGPT",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.1179780455">
+      <recent name="com.example.blinkanime.animerecommendation" />
+    </key>
+    <key name="android.template.322330245">
+      <recent name="com.example.blinkanime.topanimes" />
+    </key>
+    <key name="android.template.-1796447568">
+      <recent name="com.example.blinkanime.seasonalanime" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bLinK\Documents\bLinKAnime\app\src\main\res\layout" />
+      <recent name="C:\Users\bLinK\Documents\bLinKAnime\app\src\main\res\layout\main_fragment" />
+    </key>
+    <key name="android.template.2110090383">
+      <recent name="com.example.blinkanime.animeRecommendationActivity" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.blinkanime.newsFragment" />
+      <recent name="com.example.blinkanime.scheduleFragment" />
+      <recent name="com.example.blinkanime.mainFragment" />
+    </key>
+    <key name="android.template.-779696940">
+      <recent name="com.example.blinkanime.mainFragment.detailsActivity" />
+    </key>
+    <key name="android.template.-185377268">
+      <recent name="com.example.blinkanime.animelist" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="bLinKAnime.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1822163-2dd2-47ee-9659-819254d3d21d" name="Changes" comment="" />
+      <created>1682182532738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682182532738</updated>
+      <workItem from="1682182534945" duration="8604000" />
+      <workItem from="1682192801912" duration="1434000" />
+      <workItem from="1682195362123" duration="19091000" />
+      <workItem from="1682245099490" duration="13432000" />
+      <workItem from="1682290408544" duration="8566000" />
+      <workItem from="1682340201180" duration="28967000" />
+      <workItem from="1682374021263" duration="711000" />
+      <workItem from="1682429767629" duration="15399000" />
+      <workItem from="1682455347800" duration="781000" />
+      <workItem from="1682494282314" duration="2399000" />
+      <workItem from="1682496722264" duration="15347000" />
+      <workItem from="1682542129313" duration="5455000" />
+      <workItem from="1682578845251" duration="9905000" />
+      <workItem from="1682622305161" duration="4404000" />
+      <workItem from="1682754164608" duration="22493000" />
+      <workItem from="1682799445010" duration="292000" />
+      <workItem from="1682833494464" duration="15863000" />
+      <workItem from="1682890532910" duration="3002000" />
+      <workItem from="1682924930518" duration="15083000" />
+      <workItem from="1682971844041" duration="4659000" />
+      <workItem from="1683022032920" duration="12135000" />
+      <workItem from="1683064325722" duration="1040000" />
+      <workItem from="1683097550415" duration="24729000" />
+      <workItem from="1683150267380" duration="3306000" />
+      <workItem from="1683185202099" duration="11885000" />
+      <workItem from="1683219966824" duration="1294000" />
+      <workItem from="1683281243529" duration="6554000" />
+      <workItem from="1683299441039" duration="10554000" />
+      <workItem from="1683317861835" duration="1471000" />
+      <workItem from="1683319364832" duration="4696000" />
+      <workItem from="1683359502509" duration="6612000" />
+      <workItem from="1683387169506" duration="6222000" />
+      <workItem from="1683408548103" duration="2154000" />
+      <workItem from="1683445798625" duration="4280000" />
+      <workItem from="1683494334283" duration="2213000" />
+      <workItem from="1683527272644" duration="16774000" />
+      <workItem from="1683579976448" duration="3965000" />
+      <workItem from="1683615198071" duration="20309000" />
+      <workItem from="1683662693779" duration="2977000" />
+      <workItem from="1683698615449" duration="14757000" />
+      <workItem from="1683811326354" duration="251000" />
+      <workItem from="1683836185882" duration="637000" />
+      <workItem from="1683959543430" duration="5749000" />
+      <workItem from="1683969430137" duration="778000" />
+      <workItem from="1683972711326" duration="8602000" />
+      <workItem from="1684045758237" duration="21201000" />
+      <workItem from="1684094149035" duration="1460000" />
+      <workItem from="1684099974397" duration="56000" />
+      <workItem from="1684100048663" duration="865000" />
+      <workItem from="1684132777214" duration="13109000" />
+      <workItem from="1684176925132" duration="576000" />
+      <workItem from="1684184787318" duration="1993000" />
+      <workItem from="1684219424530" duration="7831000" />
+      <workItem from="1684307952904" duration="11175000" />
+      <workItem from="1684392476147" duration="19772000" />
+      <workItem from="1684492453240" duration="1857000" />
+      <workItem from="1684498651789" duration="4502000" />
+      <workItem from="1684571012921" duration="3475000" />
+      <workItem from="1684666446580" duration="2468000" />
+      <workItem from="1684756633348" duration="3573000" />
+      <workItem from="1684826957636" duration="2570000" />
+      <workItem from="1684910899590" duration="17920000" />
+      <workItem from="1684963211680" duration="2259000" />
+      <workItem from="1685010880913" duration="3327000" />
+      <workItem from="1685135966891" duration="1989000" />
+      <workItem from="1685173583208" duration="9119000" />
+      <workItem from="1685260313670" duration="10988000" />
+      <workItem from="1685345257802" duration="12904000" />
+      <workItem from="1685366290452" duration="1801000" />
+      <workItem from="1685394611392" duration="1209000" />
+      <workItem from="1685431965649" duration="4489000" />
+      <workItem from="1685700125741" duration="2948000" />
+      <workItem from="1685716944094" duration="65000" />
+      <workItem from="1685720912933" duration="4765000" />
+      <workItem from="1685773678364" duration="3381000" />
+      <workItem from="1685863363461" duration="3634000" />
+      <workItem from="1686062530366" duration="264000" />
+      <workItem from="1686062819154" duration="324000" />
+      <workItem from="1686642875096" duration="5002000" />
+      <workItem from="1687109862998" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/blinkanime/mainFragment/detailsActivity/DetailsActivity.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/blinkanime/misc/MALScraper.kt</url>
+          <line>516</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
