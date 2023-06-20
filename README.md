@@ -46,6 +46,11 @@ Find anime series that are similar in terms of genre, themes, or storyline, allo
 3. Interact with the community by commenting on episodes, writing reviews, and participating in discussions.
 4. Customize your preferences and settings to enhance your anime watching experience.
 
+### Todo
+
+- [ ] Implement Anime Search 
+- [ ] Implement Anime Review 
+
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 1. Fork the repository.
