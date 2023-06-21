@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+        >
+
+            <LinearLayout
+                    android:id="@+id/cardHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginTop="10dp">
+
+                <TextView
+                        android:id="@+id/titleTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="titleTextView"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        app:layout_constraintVertical_bias="0.5"/>
+
+                <ImageView
+                        android:id="@+id/profileLogo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="15dp"
+                        android:contentDescription="TODO"/>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/descriptionTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/cardHeader"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text=""
+
+            />
+
+            <TextView
+                    android:id="@+id/createdAt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:visibility="gone"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+            <ImageView
+                    android:id="@+id/mainImageView"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/createdAt"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:src="@drawable/ic_launcher_foreground"
+
+                    android:contentDescription="TODO"/>
+
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/videoContainer"
+                    android:visibility="gone"
+                    android:background="@color/transparent"
+                    app:layout_constraintTop_toBottomOf="@+id/mainImageView">
+
+                <androidx.media3.ui.PlayerView
+                        android:id="@+id/videoView"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        app:show_buffering="when_playing"
+
+                        app:layout_constraintTop_toBottomOf="@+id/mainImageView"
+                        app:surface_type="surface_view"
+                        app:use_controller="true"/>
+
+            <ImageButton
+                    android:id="@+id/mute_button"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="bottom|end"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_volume_up"/>
+
+        </FrameLayout>
+
+            <!--	show more textView	-->
+            <TextView
+                    android:id="@+id/showMoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="Show more"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    app:layout_constraintTop_toBottomOf="@+id/mainImageView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintVertical_bias="0.5"/>
+
+            <!-- progress_bar.xml -->
+            <!-- Circular progress indicator -->
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/circle_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@+id/mainImageView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintVertical_bias="0.5"
+                    android:indeterminate="true" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+                android:id="@+id/imageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+        />
+
+        <!--		show less textView-->
+        <TextView
+                android:id="@+id/showLessTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:visibility="gone"
+                android:text="Show less"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?attr/textAppearanceBody2"
+                app:layout_constraintTop_toBottomOf="@+id/imageContainer"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.5"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

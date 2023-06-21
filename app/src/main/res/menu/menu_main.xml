@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:showIn="@layout/main_page">
+
+    <item
+            android:id="@+id/animelist"
+            android:icon="@drawable/listtext"
+            android:title="Anime List" />
+
+    <item
+            android:id="@+id/animeRecom"
+            android:icon="@drawable/listtext"
+            android:title="Recommended Anime" />
+
+    <item
+            android:id="@+id/animeTop"
+            android:icon="@drawable/listtext"
+            android:title="Top Anime" />
+
+    <item
+            android:id="@+id/seasonalAnime"
+            android:icon="@drawable/listtext"
+            android:title="Seasonal Anime" />
+
+
+
+    <!-- This is a settings-group of items that will be shown as a sub-menu. -->
+    <group
+            android:id="@+id/group_settings"
+            android:checkableBehavior="single"
+            android:visible="true"
+            android:enabled="true"
+            android:menuCategory="secondary"
+            android:orderInCategory="100"
+            android:title="Settings">
+        <!-- Dropdown options using spinner. -->
+
+
+        <item
+                android:id="@+id/theme_settings"
+                android:icon="@drawable/theme"
+                android:title=""
+                app:actionLayout="@layout/spinner"/>
+
+        <item
+                android:id="@+id/site_settings"
+                android:icon="@drawable/site"
+                android:title=""
+                app:actionLayout="@layout/spinner"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Linear progress indicator -->
+<!--    <com.google.android.material.progressindicator.LinearProgressIndicator-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/main_progressIndicator"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:indeterminate="true" />-->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/main_refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <androidx.core.widget.NestedScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                               tools:ignore="MissingConstraints">
+
+
+
+<!--                <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/main_page_linearLayout"-->
+<!--                        app:layout_constraintTop_toTopOf="parent"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                    <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginBottom="8dp"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="انميات الموسم"-->
+<!--                                android:textSize="20sp"/>-->
+
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                                android:id="@+id/season_animes_recyclerView"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:scrollbars="none"-->
+<!--                                android:overScrollMode="never"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:layout_marginBottom="10dp"/>-->
+
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginBottom="8dp"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="الأكثر مشاهدة"-->
+<!--                                android:textSize="20sp"/>-->
+
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                                android:id="@+id/most_watched_recyclerView"-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:orientation="horizontal"-->
+<!--                                android:scrollbars="none"-->
+<!--                                android:overScrollMode="never"-->
+<!--                                android:layout_marginTop="10dp"-->
+<!--                                android:layout_marginBottom="10dp"/>-->
+<!--                    </LinearLayout>-->
+
+<!--                    <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="احدث الحلقات"-->
+<!--                                android:textSize="20sp"/>-->
+
+
+                        <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/latest_episodes_recyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"/>
+
+<!--                    </LinearLayout>-->
+
+
+<!--                </LinearLayout>-->
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF808080</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FFFF0000</color>
+    <!-- Theme colors    -->
+    <color name="my_light_primary">#FF6200EE</color>
+    <color name="my_light_primary_variant">#FF3700B3</color>
+    <color name="my_light_secondary">#1443EB</color>
+    <color name="my_light_secondary_variant">#FF018786</color>
+    <color name="my_light_background">#FFFFFFFF</color>
+    <color name="my_light_surface">#FFFFFFFF</color>
+    <color name="my_light_error">#B00020</color>
+    <color name="my_light_on_primary">#FFFFFFFF</color>
+    <color name="my_light_on_secondary">#FFFFFF</color>
+    <color name="my_light_on_background">#FF000000</color>
+    <color name="my_light_on_surface">#FF000000</color>
+    <color name="my_light_on_error">#FFFFFFFF</color>
+    <!-- Dark theme colors -->
+    <color name="my_dark_primary">#FFBB86FC</color>
+    <color name="my_dark_primary_variant">#FF3700B3</color>
+    <color name="my_dark_secondary">#362228</color>
+    <color name="my_dark_secondary_variant">#FF03DAC5</color>
+    <color name="my_dark_background">#FF121212</color>
+    <color name="my_dark_surface">#FF121212</color>
+    <color name="my_dark_error">#CF6679</color>
+    <color name="my_dark_on_primary">#FF000000</color>
+    <color name="my_dark_on_secondary">#FFFFFF</color>
+    <color name="my_dark_on_background">#FFFFFFFF</color>
+    <color name="my_dark_on_surface">#FFFFFFFF</color>
+    <color name="my_dark_on_error">#FF000000</color>
+</resources>

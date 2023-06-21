@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_margin="8dp"
+                                   app:cardCornerRadius="8dp">
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:id="@+id/anime_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_launcher_background"
+                    android:contentDescription="TODO"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/anime_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_margin="5dp"
+                        android:text="Jaku-Chara Tomozaki-kun"/>
+
+                <TextView
+                        android:id="@+id/anime_reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:padding="5dp"
+                        android:text="Both are the best shounen in the world to me! They start off with adventures of a brave main character and go on into darker themes. Love the way the character opens and evolves throughout the story. "/>
+
+                <Button
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:id="@+id/show_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:text="show more"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:background="@null"/>
+
+
+                <TextView
+                        android:id="@+id/anime_recommended"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="textEnd"
+                        android:padding="5dp"
+                        android:text="Recommended 5 times"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

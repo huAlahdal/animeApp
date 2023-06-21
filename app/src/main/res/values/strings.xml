@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">bLinK Anime</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="play_vector_path" translatable="false">M6,5 l12,7 l0,0 l-12,0z M6,12 l12,0 l0,0 l-12,7z</string>
+    <string name="pause_vector_path" translatable="false">M5,6 l14,0 l0,4 l-14,0z M5,14 l14,0 l0,4 l-14,0z</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_anime_list">Anime List</string>
+    <string name="search_hint">search an anime</string>
+    <string name="title_activity_anime_recommendation">Anime Recommendation</string>
+    <string name="title_activity_episode_comments">Episode Comments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
